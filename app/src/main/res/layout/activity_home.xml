@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/BookingButton"
+            android:layout_width="159dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/ReservationButton"
+            android:layout_marginTop="110dp"
+            android:layout_weight="1"
+            android:text="Booking" />
+
+        <Button
+            android:id="@+id/ReservationButton"
+            android:layout_width="161dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/ScheduleButton"
+            android:layout_marginTop="190dp"
+            android:layout_weight="1"
+            android:text="Reservations" />
+
+        <Button
+            android:id="@+id/ScheduleButton"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="136dp"
+            android:layout_weight="1"
+            android:text="Schedules" />
+
+        <Button
+            android:id="@+id/SignOutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="46dp"
+            android:layout_marginEnd="131dp"
+            android:text="Log Out" />
+
+
+    </RelativeLayout>
+</LinearLayout>
